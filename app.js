@@ -25,12 +25,12 @@ function getFullDetails(userId) {
         const userData = document.getElementById('user-details');
         userData.innerHTML = `
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <h2 class="text-center">${data.name}</h2>
-            <h4 class="text-center"> User id: ${data.id}</h4>
-            <h4 class="text-center"> Username: ${data.username}</h4>
-            <h4 class="text-center"> Email :${data.email}</h4>
-            <h4 class="text-center"> Website: ${data.website}</h4>
-            <h4 class="text-center"> Phone: ${data.phone}</h4> 
+            <h4 class="text-center">name: ${data.name}</h4>
+            <h6 class="text-center"> User id: ${data.id}</h6>
+            <h6 class="text-center"> Username: ${data.username}</h6>
+            <h6 class="text-center"> Email :${data.email}</h6>
+            <h6 class="text-center"> Website: ${data.website}</h6>
+            <h6 class="text-center"> Phone: ${data.phone}</h6> 
              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
              </button>
